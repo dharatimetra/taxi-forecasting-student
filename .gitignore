@@ -21,6 +21,7 @@ data/raw/*
 data/processed/*
 data/features/*
 !data/**/.gitkeep
+!data/processed/demand_hourly.parquet   
 
 # MLflow
 mlruns/
@@ -28,7 +29,7 @@ mlflow.db
 *.db
 
 # Models / outputs
-artifacts/
+#artifacts/
 *.pkl
 *.joblib
 
