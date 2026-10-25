@@ -45,6 +45,9 @@ Pillow==10.4.0
 pytest==8.2.2
 pytest-cov==5.0.0
 
+# To reolve dependency conflicts with mlflow and sqlalchemy (FallbackAsyncAdaptedQueuePool) :DM
+SQLAlchemy==2.0.55
+
 # Build/runtime shim: provides pkg_resources for transitive deps (e.g. mlflow)
 # on Python images that no longer bundle setuptools by default. Pin below 81
 # because setuptools 81 removed the pkg_resources module.
